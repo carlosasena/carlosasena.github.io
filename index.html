@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Carlos Alberto de Sena - Desenvolvedor Front-End especializado em criar sites modernos, responsivos e focados na experiência do usuário.">
+    <meta name="keywords" content="desenvolvedor front-end, web design, HTML, CSS, JavaScript, portfólio">
+    <meta name="author" content="Carlos Alberto de Sena">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Carlos Sena | Desenvolvedor Front-End">
+    <meta property="og:description" content="Transformando designs em interfaces web de alto desempenho">
+    
     <title>Carlos Sena | Desenvolvedor Front-End</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="particles-js"></div>
+    <div id="particles-js" aria-hidden="true"></div>
 
     <div class="container">
         <header>
@@ -20,65 +29,79 @@
                 Transformando designs em interfaces web de alto desempenho.
             </p>
             
-            <div class="social-links">
-                <a href="https://github.com/carlosasena" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://www.linkedin.com/in/carlos-alberto-de-sena-24894a220/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            </div>
+            <nav class="social-links" aria-label="Links para redes sociais">
+                <a href="https://github.com/carlosasena" target="_blank" rel="noopener noreferrer" class="btn-curriculo" aria-label="Visite meu perfil no GitHub">
+                    <i class="fab fa-github" aria-hidden="true"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/carlos-alberto-de-sena-24894a220/" target="_blank" rel="noopener noreferrer" class="btn-curriculo" aria-label="Visite meu perfil no LinkedIn">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+                </a>
+                <a href="curriculo.html" class="btn-curriculo" aria-label="Ver meu currículo completo">
+                    <i class="fas fa-file-alt" aria-hidden="true"></i> Currículo
+                </a>
+            </nav>
         </header>
 
-        <h2 class="section-title" style="margin-top: 60px; color: #10b981;">&lt; MEUS_SITES &gt;</h2>
+        <section aria-labelledby="projects-heading">
+            <h2 id="projects-heading" class="section-title" style="margin-top: 60px; color: #10b981;">&lt; MEUS_PROJETOS /&gt;</h2>
 
-        <div class="projects-grid">
-            <div class="project-card">
-                <div class="project-content">
-                    <h3>RS Quality</h3>
-                    <p>Site institucional focado em confiança, produtividade e continuidade da obra. Layout profissional voltado para o setor da construção civil.</p>
-                    <div class="tech-stack">
-                        <span class="tech-badge">HTML5</span>
-                        <span class="tech-badge">CSS3</span>
-                        <span class="tech-badge">JS</span>
-                        <span class="tech-badge">JS</span>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>RS Quality</h3>
+                        <p>Site institucional focado em confiança, produtividade e continuidade da obra. Layout profissional voltado para o setor da construção civil.</p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">HTML5</span>
+                            <span class="tech-badge">CSS3</span>
+                            <span class="tech-badge">JavaScript</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://carlosasena.github.io/projeto_rs-quality/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                                Visitar Site <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
 
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Esquadrimel</h3>
+                        <p>Página pensada para mostrar serviços, qualidade e acabamento. Site moderno para destacar esquadrias de alumínio sob medida.</p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">HTML5</span>
+                            <span class="tech-badge">CSS3</span>
+                            <span class="tech-badge">JavaScript</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://carlosasena.github.io/projeto-Esquadrimel" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                                Visitar Site <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
                     </div>
-                    <div class="project-actions">
-                        <a href="https://carlosasena.github.io/projeto_rs-quality/" target="_blank" class="btn btn-primary">Visitar Site</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Madame Reveste</h3>
+                        <p>Site elegante e feminino para venda de roupas selecionadas. Visual leve e atrativo focado no público feminino.</p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">HTML5</span>
+                            <span class="tech-badge">CSS3</span>
+                            <span class="tech-badge">JavaScript</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://carlosasena.github.io/projeto_MadameReveste" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                                Visitar Site <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
                     </div>
-                </div>
+                </article>
             </div>
-
-            <div class="project-card">
-                <div class="project-content">
-                    <h3>Esquadrimel</h3>
-                    <p>Página pensada para mostrar serviços, qualidade e acabamento. Site moderno para destacar esquadrias de alumínio sob medida.</p>
-                    <div class="tech-stack">
-                        <span class="tech-badge">HTML5</span>
-                        <span class="tech-badge">CSS3</span>
-                        <span class="tech-badge">JS</span>
-                    </div>
-                    <div class="project-actions">
-                        <a href="https://carlosasena.github.io/projeto-Esquadrimel" target="_blank" class="btn btn-primary">Visitar Site</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-content">
-                    <h3>Madame Reveste</h3>
-                    <p>Site elegante e feminino para venda de roupas selecionadas. Visual leve e atrativo focado no público feminino.</p>
-                    <div class="tech-stack">
-                        <span class="tech-badge">HTML5</span>
-                        <span class="tech-badge">CSS3</span>
-                        <span class="tech-badge">JS</span>
-                    </div>
-                    <div class="project-actions">
-                        <a href="https://carlosasena.github.io/projeto_MadameReveste" target="_blank" class="btn btn-primary">Visitar Site</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
 
         <footer>
             <p>&copy; 2026 Carlos Alberto de Sena | Desenvolvedor Front-End</p>
+            <p style="margin-top: 10px; font-size: 0.85rem;">Feito com <i class="fas fa-heart" style="color: var(--emerald);"></i> e muito código</p>
         </footer>
     </div>
 
