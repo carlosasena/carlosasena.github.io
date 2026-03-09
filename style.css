@@ -263,6 +263,14 @@ h1 {
     font-weight: bold;
 }
 
+.btn-secondary {
+    background: transparent;
+    color: var(--emerald-light);
+    border: 1px solid var(--border);
+    font-weight: bold;
+    margin-left: 10px;
+}
+
 .btn:hover {
     box-shadow: 0 0 20px var(--emerald);
     transform: translateY(-2px);
